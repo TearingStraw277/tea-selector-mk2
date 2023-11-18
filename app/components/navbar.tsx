@@ -15,7 +15,7 @@ export default function NavBar({ placeholder }:{ placeholder:string}){
         console.log(term);
     }
     return(
-        <div className="flex space-x-4 justify-center items-center border-gray-300">
+        <div className="flex space-x-4 justify-center items-center shadow">
             {navigation.map((item) => (
             <a
                 key={item.name}
@@ -27,7 +27,7 @@ export default function NavBar({ placeholder }:{ placeholder:string}){
             </a>
         ))}
         <input 
-            className="peer block rounded-md border border-gray-200 py-[9px] pl-10 text-sm outline-2 placeholder:text-gray-500 w-56"
+            className="peer block rounded-md border border-gray-200 py-[9px] pl-10 text-sm outline-2 placeholder:text-gray-500 w-70"
             placeholder={placeholder}
             onChange={(e) => {
                 handleSearch(e.target.value);

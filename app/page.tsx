@@ -7,7 +7,7 @@ export default function Home(){
         <NavBar placeholder="Search"></NavBar>
       </div>
       <div>
-        <p>Hello</p>
+        <p>Something nice and greeting like</p>
       </div>
     </main>
   )
