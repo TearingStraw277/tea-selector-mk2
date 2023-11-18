@@ -9,6 +9,9 @@ export default function Home(){
       <div>
         <p>Something nice and greeting like</p>
       </div>
+      <li>
+        <button></button>
+      </li>
     </main>
   )
 }
