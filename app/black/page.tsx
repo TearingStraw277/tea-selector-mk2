@@ -13,9 +13,9 @@ export default function Black(){
             </div>
 
             {black.map((black) =>
-            <a href="./black" key={black.id}>
+            <a key={black.id}>
                 <li 
-                    className="max-w-[250px] ml-5 mb-2 border-solid rounded border-rose-500 bg-sky-400 hover:bg-sky-500" 
+                    className="max-w-[250px] ml-5 mb-2 bg-sky-400 hover:bg-sky-500" 
                 >
                     <img
                         className="rounded-t-lg"
