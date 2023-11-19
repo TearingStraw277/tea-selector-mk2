@@ -4,9 +4,10 @@ import { MagnifyingGlassIcon } from '@heroicons/react/24/outline';
 
 const navigation = [
     {name: 'Home', href: '.', current: false},
-    {name: 'Black', href: './black', current: false},
-    {name: 'Green', href: './green', current: false},
-    {name: 'Misc', href: './misc', current: false}
+    {name: 'Black', href: './pages/black', current: false},
+    {name: 'Green', href: './pages/green', current: false},
+    {name: 'Misc', href: './pages/misc', current: false},
+    {name: 'Update', href: './pages/new', current: false}
 ]
 
 export default function NavBar({ placeholder }:{ placeholder:string}){

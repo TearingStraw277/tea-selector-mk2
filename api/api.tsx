@@ -1,11 +1,9 @@
-async function Data() {
-    const res = [
-        {Name:'Earl Grey', Description:'Early', Type:'Black', group:'Breakfast', href:''},
-        {Name:'Assam', Description:'assam', Type:'Black', group:'Breakfast', href:''},
-        {Name:'Darjeeling', Description:'darj', Type:'Black', group:'Breakfast', href:''},
-        {Name:'Jasmine', Description:'', Type:'Green', group:'Flowering', href:''},
-    ]
-    return res;
-}
+const sqlite3 = require('sqlite3').verbose();
 
-module.exports = {Data}
+// open the database
+let db = new sqlite3.Database('../data/tea_db.db', sqlite3.OPEN_READWRITE, (err) => {
+    if (err) {
+        console.error(err.message);
+    }
+    console.log('Connected to the chinook database.');
+});
