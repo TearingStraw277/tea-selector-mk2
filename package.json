@@ -13,7 +13,8 @@
     "next": "14.0.2",
     "react": "^18",
     "react-dom": "^18",
-    "sqlite3": "^5.1.6"
+    "sqlite3": "^5.1.6",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
     "@heroicons/react": "^2.0.18",
