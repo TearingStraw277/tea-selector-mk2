@@ -1,8 +1,8 @@
 import NavBar from "app/components/navbar"
 
 const black = [
-    {id: '1', name:'Earl Grey',description:'Something useful', image:'public\earlgrey.jpg', type:'black'},
-    {id:'2', name:'Assam', description: 'Something else', image:"public\earlgrey.jpg", type:'black'}
+    {id: '1', name:'Earl Grey',description:'Something useful', image:'public/earlgrey.jpg', type:'black'},
+    {id:'2', name:'Assam', description: 'Something else', image:"public/earlgrey.jpg", type:'black'}
 ]
 
 export default function Black(){
