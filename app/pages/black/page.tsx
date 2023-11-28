@@ -1,4 +1,4 @@
-import NavBar from "../components/navbar"
+import NavBar from "app/components/navbar"
 
 const black = [
     {id: '1', name:'Earl Grey',description:'Something useful', image:'public\earlgrey.jpg', type:'black'},
