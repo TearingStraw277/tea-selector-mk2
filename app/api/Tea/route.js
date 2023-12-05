@@ -1,4 +1,4 @@
-import Tea from "../(model)/Tea";
+import Tea from "../../(model)/Tea";
 import { NextResponse } from "next/server";
 
 export async function POST(req){
@@ -13,3 +13,7 @@ export async function POST(req){
         return NextResponse.json({message: "Error", error}, {status: 500});
     }
 }
+
+
+
+//export async function
